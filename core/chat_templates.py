@@ -10,3 +10,9 @@ LLAMA_TEMPLATE = (
     "{instruction} "
     "[/INST]"
 )
+
+BASE_TEMPLATE = (
+    "You are a helpful assistant who answers questions."
+    "{instruction} "
+    "The answer is "
+)

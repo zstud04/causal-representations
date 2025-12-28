@@ -1,0 +1,5 @@
+gemini-3-pro
+gemini-2.5
+gemini-2.0
+gpt-5.2
+gpt-4.1

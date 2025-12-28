@@ -1,0 +1,4 @@
+{
+    "general_instruct": "What is the most likely word/phrase to replace \"BLANK\"? Respond ONLY with the word/phrase.\n\n{prompt}\n\nOption A: {a}\nOption B: {b}\n\nBLANK="
+}
+  

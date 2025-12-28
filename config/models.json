@@ -180,6 +180,13 @@
       "reasoning": true,
       "api_logit_support": false
     },
+    "deepseek-r1": {
+      "name": "deepseek-r1",
+      "path": "deepseek-reasoner",
+      "type": "deepseek",
+      "reasoning": true,
+      "api_logit_support": false
+    },
     "gemini-2.0": {
       "name": "gemini-2.0",
       "path": "gemini-2.0-flash",
