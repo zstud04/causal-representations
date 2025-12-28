@@ -41,8 +41,11 @@ from tqdm.auto import tqdm
 from transformer_lens import ActivationCache, HookedTransformer, utils
 from transformer_lens.hook_points import HookPoint
 from tqdm import tqdm
+import chat_templates as chat_templates
+
 
 class HFWrapper:
+    
     
     def __init__(
         self,
@@ -51,7 +54,8 @@ class HFWrapper:
         tl_support:bool,
         device :str = "cuda",
         quantization: Optional[str] = None,
-        cache_dir=None
+        cache_dir=None,
+        enable_templates=True#whether to format with model-specific chat templates
     ):
         self.name = name
         self.path = path
@@ -59,10 +63,58 @@ class HFWrapper:
         self.device = device
         self.quantization = quantization
         self.cache_dir = cache_dir
+        
+        self.enable_templates=enable_templates
         #load model and tokenizer obj(none if transformerlens)
         self.model, self.tokenizer = self.__load_model(self.path, self.tl_support)
+
+        self.prompt_template = self.__get_prompt_template(self.path)
     
-   
+    
+    
+    
+    def __get_prompt_template(self, path: str):
+        """
+        Get prompt template based on model family
+        """
+        path_l = path.lower()
+        if "gemma" in path_l:
+            return chat_templates.GEMMA_TEMPLATE
+        elif "llama" in path_l:
+            return chat_templates.LLAMA_TEMPLATE
+        else:
+            return None
+            
+            
+    def __format_and_tokenize_prompt(self, instruction: str):
+        """
+        Format prompt using model-specific chat template and tokenize.
+        Works for both TransformerLens and base HuggingFace.
+        """
+        # --- format ---
+        if self.prompt_template is not None and self.enable_templates:
+            prompt = self.prompt_template.format(instruction=instruction)
+        else:
+            prompt = instruction
+
+        # --- tokenize ---
+        if self.tl_support:
+            # TransformerLens: tokens only
+            toks = self.model.to_tokens(prompt).to(self.device)
+            return prompt, toks, None
+        else:
+            # HuggingFace: input_ids + attention_mask
+            enc = self.tokenizer(
+                prompt,
+                return_tensors="pt",
+                add_special_tokens=False
+            )
+            input_ids = enc["input_ids"].to(self.model.device)
+
+            return input_ids
+
+            
+        
     def __load_model(self, path:str, tl_support:bool):
         """
         return transformerlens or transformer obj depending on model support, as well as tokenizer if applicable

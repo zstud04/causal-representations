@@ -10,54 +10,59 @@ import requests
 import os
 import sys
 import json
+import inspect
 
 import torch
 ##paths/config
-os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STIM_CONFIG_PATH = os.path.join(BASE_DIR, "..", "config", "stim_battery.json")
-MODEL_CONFIG_PATH = os.path.join(BASE_DIR, "..", "config", "model_battery.json")
-EXP_CONFIG_PATH = os.path.join(BASE_DIR, "..", "config", "exp_battery.json")
-
+os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 os.environ["TORCH_USE_CUDA_DSA"] = "1"
 
-PARENT_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))
-if PARENT_DIR not in sys.path:
-    sys.path.append(PARENT_DIR)
+with open("config/models.json", "r", encoding="utf-8") as f:
+    MODELS_CFG = json.load(f)
+    
+##local imports
+
+#core
+import core.prompt_enums as prompt_enums
+from core.hf_wrapper import HFWrapper
+from core.api_wrapper import APIWrapper 
 
 
+#utils
+import utils.model_utils as model_utils
 
-def general_eval():
+def general_eval(model_path: str):
     """
     Run general eval for full model suite
-    Args:
-        api_models (List): optional- runs additional families of api_model families as specified, ie. openai, gemini
     """
-    pass
+    with open(model_path, "r", encoding="utf-8") as f:
+        model_list = [line.strip() for line in f if line.strip()]
 
-def wm_eval():
+    for model_str in model_list:
+        llm = model_utils.load_model(model_str)
+        print(llm)
+        
+    model_utils.mem_cleanup()  
+
+    
+
+def wm_eval(model_path:str):
     """
     Run world model eval for full model suite
-    Args:
-        api_models (List): optional- runs additional families of api_model families as specified, ie. openai, gemini
     """
     pass
 
 def general_explanations():
     """
     Get explanations for large model suite
-    Args:
-        api_models (List): optional- runs additional families of api_model families as specified, ie. openai, gemini
     """
     pass
 
 def explanation_code():
     """
-    classify model + human explanations based on pre-specified code
+    classify model + human explanations based on pre-specified code scheme
     """
     pass
-
 
 
 if __name__ == "__main__":

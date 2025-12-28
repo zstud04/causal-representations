@@ -1,38 +1,212 @@
-[
-    {
-        "name": "gemma-2-27b",
-        "path": "google/gemma-2-27b",
-        "type": "hf",
-        "tl_support": true
+{
+    "gemma-2-27b": {
+      "name": "gemma-2-27b",
+      "path": "google/gemma-2-27b",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": true
     },
-    {
-        "name": "gemma-2-27b-it",
-        "path": "google/gemma-2-27b-it",
-        "type": "hf",
-        "tl_support": true
+    "gemma-2-27b-it": {
+      "name": "gemma-2-27b-it",
+      "path": "google/gemma-2-27b-it",
+      "type": "hf",
+      "tl_support": true
     },
-    {
-        "name": "gemma-3-27b",
-        "path": "google/gemma-3-27b-pt",
-        "type": "hf",
-        "tl_support": false
+    "gemma-3-27b": {
+      "name": "gemma-3-27b",
+      "path": "google/gemma-3-27b-pt",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": false
     },
-    {
-        "name": "gemma-3-27b-it",
-        "path": "google/gemma-3-27b-it",
-        "type": "hf",
-        "tl_support": false
+    "gemma-3-27b-it": {
+      "name": "gemma-3-27b-it",
+      "path": "google/gemma-3-27b-it",
+      "type": "hf",
+      "chat_template": "gemma",
+      "tl_support": false
     },
-    {
-        "name": "gemma-3-9b",
-        "path": "google/gemma-3-9b-pt",
-        "type": "hf",
-        "tl_support": false
+    "gemma-3-9b": {
+      "name": "gemma-3-9b",
+      "path": "google/gemma-3-9b-pt",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": false
     },
-    {
-        "name": "gemma-3-9b-it",
-        "path": "google/gemma-3-9b-it",
-        "type": "hf",
-        "tl_support": false
+    "gemma-3-9b-it": {
+      "name": "gemma-3-9b-it",
+      "path": "google/gemma-3-9b-it",
+      "type": "hf",
+      "chat_template": "gemma",
+      "tl_support": false
+    },
+    "gemma-2-9b": {
+      "name": "gemma-2-9b",
+      "path": "google/gemma-2-9b",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": true
+    },
+    "gemma-2-9b-it": {
+      "name": "gemma-2-9b-it",
+      "path": "google/gemma-2-9b-it",
+      "type": "hf",
+      "chat_template": "gemma",
+      "tl_support": true
+    },
+    "gemma-2-2b": {
+      "name": "gemma-2-2b",
+      "path": "google/gemma-2-2b",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": true
+    },
+    "gemma-2-2b-it": {
+      "name": "gemma-2-2b-it",
+      "path": "google/gemma-2-2b-it",
+      "type": "hf",
+      "chat_template": "gemma",
+      "tl_support": true
+    },
+    "gemma-3-4b": {
+      "name": "gemma-3-4b",
+      "path": "google/gemma-3-4b-pt",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": false
+    },
+    "gemma-3-4b-it": {
+      "name": "gemma-3-4b-it",
+      "path": "google/gemma-3-4b-it",
+      "type": "hf",
+      "chat_template": "gemma",
+      "tl_support": false
+    },
+    "gemma-3-12b": {
+      "name": "gemma-3-12b",
+      "path": "google/gemma-3-12b-pt",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": false
+    },
+    "gemma-3-12b-it": {
+      "name": "gemma-3-12b-it",
+      "path": "google/gemma-3-12b-it",
+      "type": "hf",
+      "chat_template": "gemma",
+      "tl_support": false
+    },
+    "llama-2-7b": {
+      "name": "llama-2-7b",
+      "path": "meta-llama/Llama-2-7b-hf",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": false
+    },
+    "llama-2-13b": {
+      "name": "llama-2-13b",
+      "path": "meta-llama/Llama-2-13b-hf",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": false
+    },
+    "llama-2-7b-chat": {
+      "name": "llama-2-7b-chat",
+      "path": "meta-llama/Llama-2-7b-chat-hf",
+      "type": "hf",
+      "chat_template": "llama",
+      "tl_support": false
+    },
+    "llama-2-13b-chat": {
+      "name": "llama-2-13b-chat",
+      "path": "meta-llama/Llama-2-13b-chat-hf",
+      "type": "hf",
+      "chat_template": "llama",
+      "tl_support": false
+    },
+    "llama-3.1-8b-instruct": {
+      "name": "llama-3.1-8b-instruct",
+      "path": "meta-llama/Llama-3.1-8B-Instruct",
+      "type": "hf",
+      "chat_template": "llama",
+      "tl_support": false
+    },
+    "llama-3.1-8b": {
+      "name": "llama-3.1-8b",
+      "path": "meta-llama/Llama-3.1-8B",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": false
+    },
+    "qwen-2.5-14b-instruct": {
+      "name": "qwen-2.5-14b-instruct",
+      "path": "Qwen/Qwen2.5-14B-Instruct",
+      "type": "hf",
+      "chat_template": "qwen",
+      "tl_support": false
+    },
+    "qwen-2.5-7b-instruct": {
+      "name": "qwen-2.5-7b-instruct",
+      "path": "Qwen/Qwen2.5-7B-Instruct",
+      "type": "hf",
+      "chat_template": "qwen",
+      "tl_support": false
+    },
+    "gpt-5.2": {
+      "name": "gpt-5.2",
+      "path": "gpt-5.2-2025-12-11",
+      "type": "openai",
+      "reasoning": true,
+      "api_logit_support": true
+    },
+    "gpt-4.1": {
+      "name": "gpt-4.1",
+      "path": "gpt-4.1-2025-04-14",
+      "type": "openai",
+      "reasoning": false,
+      "api_logit_support": true
+    },
+    "gemini-3-pro": {
+      "name": "gemini-3-pro",
+      "path": "gemini-3-pro-preview",
+      "type": "gemini",
+      "reasoning": true,
+      "api_logit_support": false
+    },
+    "gemini-2.5": {
+      "name": "gemini-2.5",
+      "path": "gemini-2.5-pro",
+      "type": "gemini",
+      "reasoning": true,
+      "api_logit_support": false
+    },
+    "gemini-2.0": {
+      "name": "gemini-2.0",
+      "path": "gemini-2.0-flash",
+      "type": "gemini",
+      "reasoning": false,
+      "api_logit_support": false
+    },
+    "gpt2-xl": {
+      "name": "gpt2-xl",
+      "path": "gpt2-xl",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": false
+    },
+    "gpt2-medium": {
+      "name": "gpt2-medium",
+      "path": "gpt2-medium",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": false
+    },
+    "gpt2-large": {
+      "name": "gpt2-large",
+      "path": "gpt2-large",
+      "type": "hf",
+      "chat_template": null,
+      "tl_support": false
     }
-]
+}
+  
