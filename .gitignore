@@ -14,7 +14,6 @@ ENV/
 data/spose/
 /results/1a/embed_out/gemma-3-1b-it/
 /results/1a/embed_out/gemma-3-1b-it
-/results
 
 results/
 analysis/
@@ -71,7 +70,6 @@ temp_cache/
 *.tar
 *.tar.gz
 *.zip
-*.csv
 *.tsv
 
 # Model weights

@@ -1,0 +1,456 @@
+prompt,a,b,Category,bin,prompt_format
+The painting is BLANK Ali. Ali turns around. The painting is North of Ali.,North of,South of,geocentric_near,1,context
+The painting is BLANK Ali. Ali turns around. The painting is South of Ali.,South of,North of,geocentric_near,2,context
+The painting is BLANK of Ali. Ali turns around. The painting is East of Ali.,East of,West of,geocentric_near,3,context
+The painting is BLANK of Ali. Ali turns around. The painting is West of Ali.,West of,East of,geocentric_near,4,context
+The box is BLANK Ali. Ali turns around. The box is North of Ali.,North of,South of,geocentric_near,1,context
+The box is BLANK Ali. Ali turns around. The box is South of Ali.,South of,North of,geocentric_near,2,context
+The box is BLANK Ali. Ali turns around. The box is East of Ali.,East of,West of,geocentric_near,3,context
+The box is BLANK Ali. Ali turns around. The box is West of Ali.,West of,East of,geocentric_near,4,context
+Milwaukee is BLANK Ali. Ali turns around. Milwaukee is North of Ali.,North of,South of,geocentric_distant,1,context
+Milwaukee is BLANK Ali. Ali turns around. Milwaukee is South of Ali.,South of,North of,geocentric_distant,2,context
+Milwaukee is BLANK Ali. Ali turns around. Milwaukee is East of Ali.,East of,West of,geocentric_distant,3,context
+Milwaukee is BLANK Ali. Ali turns around. Milwaukee is West of Ali.,West of,East of,geocentric_distant,4,context
+The painting is BLANK Ali. Ali turns around. The painting is behind Ali.,in front of,behind,egocentric_near,1,context
+The painting is BLANK Ali. Ali turns around. The painting is in front of Ali.,behind,in front of,egocentric_near,2,context
+The painting is BLANK Ali. Ali turns around. The painting is left of Ali.,right of,left of,egocentric_near,3,context
+The painting is BLANK Ali. Ali turns around. The painting is right of Ali.,left of,right of,egocentric_near,4,context
+Ali is BLANK the painting. Ali turns around. Ali is left of the painting.,left of,right of,egocentric_near,1,context
+Ali is BLANK the painting. Ali turns around. Ali is in front of the painting,in front of,behind,egocentric_near,2,context
+Ali is BLANK the painting. Ali turns around. The painting is behind Ali.,in front of,behind,egocentric_near,3,context
+Ali is BLANK painting. Ali turns around. Ali is behind the painting.,behind,in front of,egocentric_near,4,context
+Ali is BLANK the painting. Ali turns around. Ali is right of the painting.,right of,left of,egocentric_near,1,context
+Ali is BLANK the painting. Ali turns around. Ali is left of the painting.,left of,right of,egocentric_near,2,context
+Chicago is BLANK Ali. Ali turns around. Chicago is behind Ali.,in front of,behind,egocentric_distant,3,context
+Chicago is BLANK Ali. Ali turns around. Chicago is in front of Ali.,behind,in front of,egocentric_distant,4,context
+Chicago is BLANK Ali. Ali turns around. Chicago is left of Ali.,right of,left of,egocentric_distant,1,context
+Chicago is BLANK Ali. Ali turns around. Chicago is right of Ali.,left of,right of,egocentric_distant,2,context
+Ali is facing BLANK Milwaukee. Ali turns around. Ali is facing away from Milwaukee.,towards,away from,egocentric_distant,3,context
+Ali is facing BLANK Milwaukee. Ali turns around. Ali is facing towards Milwaukee.,away from,towards,egocentric_distant,4,context
+Milwaukee is to Ali's BLANK. Ali turns left. Ali is facing away from Milwaukee.,right,left,egocentric_distant,1,context
+Chicago is to Ali's BLANK. Ali turns left. Ali is facing towards Chicago.,left,right,egocentric_distant,2,context
+Chicago is to Ali's BLANK. Ali turns right. Ali is facing away from Chicago.,left,right,egocentric_distant,3,context
+Chicago is BLANK Ali. Ali turns right. Chicago is right of Ali.,behind,in front of,egocentric_distant,4,context
+Chicago is BLANK Ali. Ali turns left. Chicago is left of Ali.,behind,in front of,egocentric_distant,1,context
+Chicago is BLANK Ali. Ali turns left. Chicago is right of Ali.,in front of,behind,egocentric_distant,2,context
+Chicago is BLANK Ali. Ali turns right. Chicago is left of Ali.,in front of,behind,egocentric_distant,3,context
+Ali is facing BLANK Chicago. Ali turns right. Chicago is left of Ali.,towards,away from,egocentric_distant,4,context
+Ali is facing BLANK Chicago. Ali turns left. Chicago is right of Ali.,towards,away from,egocentric_distant,1,context
+Ali is facing BLANK Chicago. Ali turns left. Chicago is left of Ali.,away from,towards,egocentric_distant,2,context
+Ali is facing BLANK Chicago. Ali turns right. Chicago is right of Ali.,away from,towards,egocentric_distant,3,context
+Ali is facing BLANK Chicago. Ali turns around. Chicago is in front of Ali.,away from,towards,egocentric_distant,4,context
+Ali is facing BLANK Milwaukee. Ali turns 180 degrees. Ali is facing towards Milwaukee.,away from,towards,egocentric_distant,1,context
+Ali is facing BLANK Chicago. Ali turns 180 degrees. Chicago is in front of Ali.,away from,towards,egocentric_distant,2,context
+The painting is BLANK Ali. Ali turns right. The painting is North of Ali.,North of,East of,geocentric_near,3,context
+The painting is BLANK Ali. Ali turns right. The painting is South of Ali.,South of,West of,geocentric_near,4,context
+The painting is BLANK Ali. Ali turns right. The painting is East of Ali.,East of,South of,geocentric_near,1,context
+The painting is BLANK Ali. Ali turns right. The painting is West of Ali.,West of,North of,geocentric_near,2,context
+Milwaukee is BLANK Ali. Ali turns right. Milwaukee is North of Ali.,North of,East of,geocentric_distant,3,context
+Milwaukee is BLANK Ali. Ali turns right. Milwaukee is South of Ali.,South of,West of,geocentric_distant,4,context
+Milwaukee is BLANK Ali. Ali turns right. Milwaukee is East of Ali.,East of,South of,geocentric_distant,1,context
+Milwaukee is BLANK Ali. Ali turns right. Milwaukee is West of Ali.,West of,North of,geocentric_distant,2,context
+The painting is BLANK Ali. Ali turns left. The painting is North of Ali.,North of,West of,geocentric_near,3,context
+The painting is BLANK Ali. Ali turns left. The painting is South of Ali.,South of,East of,geocentric_near,4,context
+The painting is BLANK Ali. Ali turns left. The painting is East of Ali.,East of,North of,geocentric_near,1,context
+The painting is BLANK Ali. Ali turns left. The painting is West of Ali.,West of,South of,geocentric_near,2,context
+Milwaukee is BLANK Ali. Ali turns left. Milwaukee is North of Ali.,North of,West of,geocentric_distant,3,context
+Milwaukee is BLANK Ali. Ali turns left. Milwaukee is South of Ali.,South of,East of,geocentric_distant,4,context
+Milwaukee is BLANK Ali. Ali turns left. Milwaukee is East of Ali.,East of,North of,geocentric_distant,1,context
+Milwaukee is BLANK Ali. Ali turns left. Milwaukee is West of Ali.,West of,South of,geocentric_distant,2,context
+Ali is directly BLANK of Milwaukee. Ali walks West. Ali is Southwest of Milwaukee.,South,North,geocentric_distant,3,context
+Ali is directly BLANK Milwaukee. Ali walks East. Ali is Northeast of Milwaukee.,North of,South of,geocentric_distant,4,context
+Ali is BLANK of Milwaukee. Ali walks North. Ali is getting closer to Milwaukee.,South,North,geocentric_distant,1,context
+Ali is BLANK of Milwaukee. Ali walks South. Ali is getting further from Milwaukee.,South,North,geocentric_distant,2,context
+Ali is BLANK of Milwaukee. Ali walks West. Ali is getting closer to Milwaukee.,East,West,geocentric_distant,3,context
+Ali is BLANK of Milwaukee. Ali walks East. Ali is getting further from Milwaukee.,East,West,geocentric_distant,4,context
+Milwaukee is BLANK of Ali. Ali walks East. Ali is getting further from Milwaukee.,West,East,geocentric_distant,1,context
+Milwaukee is BLANK of Ali. Ali walks West. Ali is getting closer to Milwaukee.,West,East,geocentric_distant,2,context
+The painting is BLANK Ali. Ali turns right. The painting is left of Ali.,in front of,behind,egocentric_near,3,context
+The painting is BLANK of Ali. Ali turns right. The painting is behind Ali.,left,right,egocentric_near,4,context
+The painting is BLANK of Ali. Ali turns right. The painting is in front of Ali.,right,left,egocentric_near,1,context
+The painting is BLANK Ali. Ali turns right. The painting is right of Ali.,behind,in front of,egocentric_near,2,context
+The painting is BLANK of Ali. Ali turns left. The painting is right of Ali.,in front of,behind,egocentric_near,3,context
+The painting is BLANK of Ali. Ali turns left. The painting is in front of Ali.,left,right,egocentric_near,4,context
+The painting is BLANK of Ali. Ali turns left. The painting is behind Ali.,right,left,egocentric_near,1,context
+The painting is BLANK Ali. Ali turns left. The painting is left of Ali.,behind,in front of,egocentric_near,2,context
+The wine glass is on the BLANK. The wine glass falls over. The wine spills on the table.,table,floor,action_follows,3,context
+The wine glass is on the BLANK. Ali bumps the wine glass. The wine spills on the floor.,floor,table,action_follows,4,context
+The wine glass is on the table. Ali bumps the BLANK. The wine doesn't spill.,lamp,table,action_nonfollows,1,context
+The box is in the bin. Ali moves the BLANK. The bin doesn't move.,box,bin,action_nonfollows,2,context
+The box is in the bin. Ali moves the BLANK. The box moves.,bin,box,action_follows,3,context
+The ball is in the box. Ali moves the BLANK. The ball moves.,box,ball,action_follows,4,context
+The ball is BLANK the box. Ali moves the box. The ball doesn't move.,far from,touching,action_nonfollows,1,context
+The ball is BLANK the box. Ali pushes the box. The ball moves.,touching,far from,action_follows,2,context
+The ball is BLANK the box. Ali pushes the box. The ball doesn't move.,far from,touching,action_nonfollows,3,context
+The ball is BLANK the box. Ali pushes the box. The ball moves.,on top of,below,action_follows,4,context
+The ball is BLANK the box. Ali pushes the box. The ball moves.,inside,outside,action_follows,1,context
+The ball and the box are on the table. The BLANK falls off the table. The box is lower than the ball.,box,ball,relative_pos,2,context
+The ball and the box are on the table. Ali picks up the BLANK. The ball is higher than the box.,ball,box,relative_pos,3,context
+The ball and the box are on the floor. Ali picks up the BLANK. The ball is higher than the box.,ball,box,relative_pos,4,context
+The ball and the box are on top of the ramp. The BLANK goes down the ramp. The ball is lower than the box.,ball,box,relative_pos,1,context
+The tennis ball is BLANK the bowling ball. Ali rolls the bowling ball. The bowling ball is further from the tennis ball.,touching,far from,relative_pos,2,context
+The tennis ball is BLANK the bowling ball. Ali rolls the bowling ball. The tennis ball is closer to the bowling ball.,far from,touching,relative_pos,3,context
+Ali is holding the tennis ball and the ping pong ball is on the floor. Ali BLANK the ping pong ball. The ping pong ball is closer to the tennis ball.,drops,picks up,relative_pos,4,context
+Ali is holding the tennis ball and the ping pong ball. Ali BLANK the ping pong ball. The ping pong ball is further from the tennis ball.,drops,picks up,relative_pos,1,context
+The tennis ball is at the top of the ramp and the bowling ball is at the BLANK of the ramp. Ali rolls the tennis ball down the ramp. The tennis ball is getting closer to the bowling ball.,bottom,top,relative_pos,2,context
+The tennis ball is at the top of the ramp and the bowling ball is at the BLANK of the ramp. Ali rolls the bowling ball up the ramp. The bowling ball is getting closer to the tennis ball.,bottom,top,relative_pos,3,context
+The ball is next to the box. Ali puts the BLANK. The ball is smaller than the box.,ball inside the box,box inside the ball,relative_pos,4,context
+The box is next to the ball. Ali puts the BLANK. the ball is larger than the box.,box inside the ball,ball inside the box,relative_pos,1,context
+The box is next to the ball. Ali puts the BLANK. The ball is touching the box.,ball inside the box,box inside the ball,relative_pos,2,context
+The ball is inside the box. Ali BLANK the ball. The ball is not touching the box.,picks up,doesn't pick up,relative_pos,3,context
+The box is next to the desk. Ali stacks the BLANK. The box is above the desk.,box on the desk,desk on the box,relative_pos,4,context
+The box is next to the desk. Ali stacks the BLANK. The box is below the desk.,desk on the box,box on the desk,relative_pos,1,context
+The glass is on the table. Ali BLANK. The glass is below the table.,bumps the glass,doesn't bump the glass,relative_pos,2,context
+The glass is on the floor. Ali sets the glass on the BLANK. The glass is above the table.,table,floor,relative_pos,3,context
+The box is in front of the ball. Ali pushes the box BLANK ball. The ball is touching the box.,into,away from,relative_pos,4,context
+The box is in front of the ball. Ali pushes the box BLANK the ball. The ball is not touching the box.,away from,into,relative_pos,1,context
+The ball is BLANK the box. The ball moves right. The ball is lower than the box.,under,above,action_nonfollows,2,context
+The ball is BLANK the box. The ball moves right. The ball is higher than the box.,above,under,action_nonfollows,3,context
+Ali is BLANK the wagon. Ali pushes on the wagon. The wagon moves.,behind,in front of,action_follows,4,context
+Ali is BLANK the wagon. Ali pulls on the wagon. The wagon moves.,in front of,behind,action_follows,1,context
+The box is floating in the water. Ali puts a BLANK in the box. The box sinks.,bowling ball,tennis ball,action_follows,2,context
+The box is floating in the water. Ali puts a BLANK in the box. The box floats.,tennis ball,bowling ball,action_nonfollows,3,context
+The ball is on the table. Ali BLANK the table. The ball rolls.,tilts,doesn't tilt,action_follows,4,context
+The seesaw is balanced. Ali tilts the BLANK side of the seesaw. The left side goes up.,right,left,action_follows,1,context
+There is a bowling ball on the right side of the seesaw. Ali puts a BLANK on the left side of the seesaw. The left side stays up.,tennis ball,bowling ball,action_nonfollows,2,context
+There is a bowling ball on the right side of the seesaw. Ali BLANK the bowling ball up. The right side goes up.,picks,doesn't pick,action_follows,3,context
+The book is on the shelf. Ali bumps the BLANK. The book falls off the shelf.,shelf,lamp,action_follows,4,context
+The wagon is on the BLANK of the hill. Ali pushes the wagon. The wagon rolls.,top,bottom,action_follows,1,context
+The ping pong ball is on the floor. Ali rolls a tennis ball BLANK the ping pong ball. The ping pong ball moves.,into,away from,action_follows,2,context
+The tennis ball is next to the bowling ball. Ali BLANK the tennis ball. The tennis ball is far from the bowling ball.,throws,doesn't throw,action_follows,3,context
+Ali is BLANK the wagon. Ali pulls on the wagon. The wagon doesn't move.,in,outside,action_nonfollows,4,context
+Ali is BLANK the wagon. Ali pushes on the wagon. The wagon doesn't move.,in,outside,action_nonfollows,1,context
+The room is dark. Ali turns BLANK the light. The room gets lighter.,on,off,state_follows,2,context
+The room is dark. Ali BLANK the candle. The room gets darker.,blows out,lights,state_follows,3,context
+The room is bright. Ali BLANK the lights. The room is dark.,turns off,turns on,state_follows,4,context
+The room is bright. Ali turns BLANK a light. The room gets brighter.,on,off,state_follows,1,context
+Ali is standing on BLANK. Ali drops the glass. The glass doesn't break.,carpet,tile,state_follows,2,context
+Ali is standing on BLANK. Ali drops the glass. The glass breaks.,tile,carpet,state_follows,3,context
+The glass is on the table. Ali BLANK the glass. The table is wet.,overfills,half fills,state_follows,4,context
+The glass is on the table. Ali fills the glass BLANK. The table is dry.,halfway,over full,state_nonfollows,1,context
+The empty glass is on the table. Ali fills the BLANK halfway. The glass is dry.,sink,glass,state_nonfollows,2,context
+The BLANK glass is on the table. Ali knocks the glass over. The table is dry.,empty,full,state_nonfollows,3,context
+The BLANK glass is on the table. Ali knocks the glass over. The table is wet.,full,empty,state_nonfollows,4,context
+The window is BLANK Ali. Ali throws the baseball forward. The window breaks.,in front of,behind,state_follows,1,context
+The window is BLANK Ali. Ali throws the baseball forward. The window doesn't break.,behind,in front of,state_nonfollows,2,context
+The window is behind Ali and the wall is BLANK Ali. Ali throws the baseball at the wall. The window doesn't break.,in front of,behind,state_nonfollows,3,context
+The cup is empty. Ali pours BLANK in the cup. The cup is wet.,water,sand,state_follows,4,context
+The cup is empty. Ali pours BLANK in the cup. The cup is dry.,sand,water,state_nonfollows,1,context
+The wall was painted BLANK ago. Ali touches the wall. Ali's hand is painted.,5 minutes,1 month,state_follows,2,context
+The wall was painted BLANK ago. Ali touches the wall. Ali's hand is clean.,1 month,5 minutes,state_nonfollows,3,context
+The stove is BLANK. Ali puts his hand on the stove. Ali's hand is burnt.,on,off,state_follows,4,context
+The stove is BLANK. Ali puts his hand on the stove. Ali's hand is not burnt.,off,on,state_nonfollows,1,context
+The paper is in one piece. Ali BLANK the paper. The paper is in two pieces.,rips,folds,state_follows,2,context
+The paper is in one piece. Ali BLANK the paper. The paper is in one piece.,folds,rips,state_nonfollows,3,context
+The paper is in two pieces. Ali BLANK the pieces. The paper is in one piece.,tapes,rips,state_follows,4,context
+The glass and the cup are on the table. Ali pushes the BLANK off the table. The glass doesn't break.,cup,glass,state_nonfollows,1,context
+Ali is BLANK. Ali turns around. Ali is in front of the statue.,in front of the statue,behind the statue,action_nonfollows,2,context
+Ali is BLANK. Ali turns around. Ali is behind the statue.,behind the statue,in front of the statue,action_nonfollows,3,context
+The ball is close to Ali. Ali throws the BLANK. The ball is close to Ali.,box,ball,action_nonfollows,4,context
+The box is close to Ali. Ali throws the BLANK. The box is close to Ali.,ball,box,action_nonfollows,1,context
+The box is BLANK the tunnel. Ali goes under the tunnel. The box is above the tunnel.,above,below,action_nonfollows,2,context
+The box is BLANK the bridge. Ali goes over the bridge. The box is below the bridge.,below,above,action_nonfollows,3,context
+The light is BLANK. Ali flips the lightswitch. The light stays off.,unplugged,plugged in,state_nonfollows,4,context
+The ice cube and the banana are in the fridge. Ali takes the BLANK out of the fridge. The ice cube doesn't melt.,banana,ice cube,state_nonfollows,1,context
+The ball is BLANK the box. Ali pushes the ball forward. The ball is under the box.,under,above,action_nonfollows,2,context
+The ball is BLANK the box. Ali pushes the box forward. The ball is on top of the box.,on top of,below,action_nonfollows,3,context
+The ball is BLANK the box. Ali pushes the box forward. The ball is inside the box.,inside,outside,action_nonfollows,4,context
+The icecube is in the freezer. Ali puts the icecube in the BLANK. The icecube melts.,frying pan,snow,state_follows,1,context
+The icecube is in the freezer. Ali puts the icecube in the BLANK. The icecube doesn't melt.,snow,frying pan,state_nonfollows,2,context
+The water is in the bucket. Ali puts the bucket in the BLANK. The water freezes.,freezer,refrigerator,state_follows,3,context
+The apple is in the bucket. Ali puts the apple in the BLANK. The apple gets colder.,refrigerator,oven,state_follows,4,context
+Ali is to Mark's BLANK. Ali turns around. Ali is to Mark's right.,right,left,two_refs_egocentric,1,context
+Ali is to Mark's BLANK. Mark turns around. Ali is to Mark's left.,right,left,two_refs_egocentric,2,context
+The painting is to Ali's BLANK. The painting is moved right. The painting is to Ali's right.,right,left,egocentric_near,3,context
+The painting is to Ali's BLANK. The painting is moved left. The painting is to Ali's right.,left,right,egocentric_near,4,context
+Ali is facing BLANK Mark. Ali turns around. Ali is facing towards Mark.,away from,towards,two_refs_egocentric,1,context
+Ali is facing BLANK Mark. Ali turns around. Ali is facing away from Mark.,towards,away from,two_refs_egocentric,2,context
+Ali and Mark are facing eachother. BLANK turns around. Ali is facing towards Mark.,Mark,Ali,two_refs_egocentric,3,context
+Ali and Mark are facing BLANK eachother. Mark turns around. Mark is facing towards Ali.,away from,towards,two_refs_egocentric,4,context
+Mark and Ali are facing BLANK eachother. Mark turns around. Ali is facing away from Mark.,away from,towards,two_refs_egocentric,1,context
+Ali is to the BLANK Mark. Mark looks to his left and Ali looks to his right. Ali is facing away from Mark.,right of,left of,two_refs_egocentric,2,context
+Mark is to the BLANK Ali. Mark looks to his left and Ali looks to his left. Ali is facing towards Mark.,left of,right of,two_refs_egocentric,3,context
+Mark is to the BLANK Ali. Mark looks to his left and Ali looks to his right. Ali is facing away from Mark.,left of,towards,two_refs_egocentric,4,context
+Ali is to the BLANK Mark. Mark looks to his right. Mark see Ali.,right of,left of,two_refs_egocentric,1,context
+Ali is to the BLANK Mark. Mark looks to his left. Mark can't see Ali.,right of,left of,two_refs_egocentric,2,context
+Mark is BLANK Ali. Ali turns around. Ali is facing away from Mark.,in front of,behind,two_refs_egocentric,3,context
+Mark is BLANK Ali. Ali turns around. Ali is facing towards Mark.,behind,in front of,two_refs_egocentric,4,context
+Mark and Ali are both facing BLANK. Ali turns to his left. Ali is facing away from Mark.,right,left,two_refs_egocentric,1,context
+Mark and Ali are both facing BLANK. Ali turns to his right. Ali is facing away from Mark.,left,right,two_refs_egocentric,2,context
+Mark is facing BLANK and Ali is facing left. Mark turns to his left. Mark is facing towards Ali.,right,left,two_refs_egocentric,3,context
+Mark is BLANK Ali. Mark walks forwards. Mark is getting further from Ali.,in front of,behind,two_refs_egocentric,4,context
+Mark is BLANK Ali. Mark walks backwards. Mark is getting further from Ali.,behind,in front of,two_refs_egocentric,1,context
+Mark is BLANK Ali. Mark walks forwards. Mark is getting closer to Ali.,behind,in front of,two_refs_egocentric,2,context
+Mark is facing BLANK Ali. Ali turns around. Mark is facing away Ali.,away from,towards,two_refs_egocentric,3,context
+Mark is facing BLANK and Ali is facing West. Mark turns around. Mark is facing West.,East,West,two_refs_geocentric,4,context
+Mark is directly BLANK of Milwaukee and Ali is directly South of Milwaukee. Mark is North of Ali.,North,South,two_refs_geocentric,1,context
+Mark is directly BLANK of Paris and Ali is directly West of Paris. Mark is East of Ali.,East,West,two_refs_geocentric,2,context
+Mark is directly BLANK of Paris and Ali is directly West of Paris. Ali is West of Mark.,East,West,two_refs_geocentric,3,context
+Mark is directly BLANK of Paris and Ali is directly East of Paris. Ali is Southeast of Mark.,North,South,two_refs_geocentric,4,context
+Mark is directly BLANK of Paris and Ali is directly West of Paris. Mark is Southeast of Ali.,South,North,two_refs_geocentric,1,context
+Mark is BLANK of Ali facing East. Ali is West of Mark facing West. Mark is facing away from Ali.,East,West,two_refs_geocentric,2,context
+Mark is BLANK of Ali facing East. Ali is East of Mark facing West. Mark is facing towards Ali.,West,East,two_refs_geocentric,3,context
+Mark is BLANK of Ali. Mark turns right. Mark is East of Ali.,East,West,two_refs_geocentric,4,context
+Milwaukee is North of Mark. Mark goes BLANK. Milwaukee is Northwest of Mark.,East,West,two_refs_geocentric,1,context
+Milwaukee is South of Mark. Mark goes BLANK. Milwaukee is Southeast of Mark.,West,East,two_refs_geocentric,2,context
+Milwaukee is South of Mark. Mark goes BLANK. Mark is Northeast of Milwaukee.,West,East,two_refs_geocentric,3,context
+Mark is facing North and Ali is facing BLANK. Mark turns 90 degrees to his right. Mark and Ali are facing the same direction.,East,West,two_refs_geocentric,4,context
+Mark is facing South and Ali is facing BLANK. Mark turns 90 degrees to his right. Mark and Ali are facing different directions.,East,West,two_refs_geocentric,1,context
+Mark is facing East and Ali is facing BLANK. Mark turns 180 degrees. Mark and Ali are facing the same direction.,West,East,two_refs_geocentric,2,context
+Mark and Ali are both directly East of Budapest. Mark walks BLANK. Ali is South of Mark.,North,South,two_refs_geocentric,3,context
+Mark and Ali are both directly West of Budapest. Mark walks BLANK. Ali is North of Mark.,South,North,two_refs_geocentric,4,context
+Mark is East of Budapest and Ali is West of Budapest. Mark walks directly BLANK Ali. Mark is heading West.,towards,away from,two_refs_geocentric,1,context
+Mark is East of Budapest and Ali is West of Budapest. Ali walks directly BLANK Mark. Ali is heading East.,towards,away from,two_refs_geocentric,2,context
+Mark is North of Budapest and Ali is South of Budapest. Ali walks directly BLANK Mark. Ali is walking South.,away from,towards,two_refs_geocentric,3,context
+Mark is facing BLANK. Mark turns 90 degrees to his right. Mark is facing South.,East,West,geocentric_near,4,context
+Mark is facing BLANK. Mark turns 90 degrees to his right. Mark is facing West.,South,North,geocentric_near,1,context
+Mark is facing BLANK. Mark turns 90 degrees to his right. Mark is facing North.,West,East,geocentric_near,2,context
+Mark is facing BLANK. Mark turns 90 degrees to his right. Mark is facing East.,North,South,geocentric_near,3,context
+The statue is BLANK Ali. Ali walks East. The statue is North of Ali.,North of,West of,geocentric_near,4,context
+The statue is BLANK Ali. Ali walks West. The statue is North of Ali.,North of,East of,geocentric_near,1,context
+The statue is BLANK Ali. Ali walks East. The statue is South of Ali.,South of,West of,geocentric_near,2,context
+The statue is BLANK Ali. Ali walks North. The statue is East of Ali.,East of,South of,geocentric_near,3,context
+The statue is BLANK Ali. Ali walks South. The statue is East of Ali.,East of,North of,geocentric_near,4,context
+The statue is BLANK Ali. Ali walks North. The statue is West of Ali.,West of,South of,geocentric_near,1,context
+The statue is BLANK Ali. Ali walks South. The statue is West of Ali.,West of,North of,geocentric_near,2,context
+The glass is on the BLANK. Ali bumps the table. The glass breaks.,table,floor,state_follows,3,context
+The glass is on the floor. Ali bumps the BLANK. The glass doesn't break.,table,glass,state_nonfollows,4,context
+The soup is on the stove. Ali turns BLANK the stove. The soup gets colder.,off,on,state_follows,1,context
+The soup is on the BLANK. Ali turns on the stove. The soup gets warmer.,stove,table,state_follows,2,context
+The soup is on the BLANK. Ali turns on the stove. The soup gets colder.,table,stove,state_nonfollows,3,context
+The book is BLANK the table. Ali moves the table. The book moves.,on,under,action_follows,4,context
+The book is BLANK the table. Ali moves the table. The book doesn't move.,under,on,action_nonfollows,1,context
+The book is on the table. Ali moves the BLANK. The table doesn't move.,book,table,action_follows,2,context
+The painting is North of Ali. Ali turns around. The painting is BLANK Ali.,North of,South of,geocentric_near,1,target
+The painting is South of Ali. Ali turns around. The painting is BLANK Ali.,South of,North of,geocentric_near,2,target
+The painting is East of Ali. Ali turns around. The painting is BLANK Ali.,East of,West of,geocentric_near,3,target
+The painting is West of Ali. Ali turns around. The painting is BLANK Ali.,West of,East of,geocentric_near,4,target
+The box is North of Ali. Ali turns around. The box is BLANK Ali.,North of,South of,geocentric_near,2,target
+The box is South of Ali. Ali turns around. The box is BLANK Ali.,South of,North of,geocentric_near,3,target
+The box is East of Ali. Ali turns around. The box is BLANK Ali.,East of,West of,geocentric_near,4,target
+The box is West of Ali. Ali turns around. The box is BLANK Ali.,West of,East of,geocentric_near,1,target
+Milwaukee is North of Ali. Ali turns around. Milwaukee is BLANK Ali.,North of,South of,geocentric_distant,3,target
+Milwaukee is South of Ali. Ali turns around. Milwaukee is BLANK Ali.,South of,North of,geocentric_distant,4,target
+Milwaukee is East of Ali. Ali turns around. Milwaukee is BLANK Ali.,East of,West of,geocentric_distant,1,target
+Milwaukee is West of Ali. Ali turns around. Milwaukee is BLANK Ali.,West of,East of,geocentric_distant,2,target
+The painting is in front of Ali. Ali turns around. The painting is BLANK Ali.,behind,in front of,egocentric_near,4,target
+The painting is behind Ali. Ali turns around. The painting is BLANK Ali.,in front of,behind,egocentric_near,1,target
+The painting is right of Ali. Ali turns around. The painting is BLANK Ali.,left of,right of,egocentric_near,2,target
+The painting is left of Ali. Ali turns around. The painting is BLANK Ali.,right of,left of,egocentric_near,3,target
+Ali is left of the painting. Ali turns around. Ali is BLANK the painting.,left of,right of,egocentric_near,4,target
+Ali is in front of the painting. Ali turns around. Ali is BLANK the painting,in front of,behind,egocentric_near,1,target
+Ali is in front of the painting. Ali turns around. The painting is BLANK Ali.,behind,in front of,egocentric_near,2,target
+Ali is behind the painting. Ali turns around. Ali is BLANK the painting.,behind,in front of,egocentric_near,3,target
+Ali is right of the painting. Ali turns around. Ali is BLANK the painting.,right of,left of,egocentric_near,1,target
+Ali is left of the painting. Ali turns around. Ali is BLANK the painting.,left of,right of,egocentric_near,2,target
+Chicago is in front of Ali. Ali turns around. Chicago is BLANK Ali.,behind,in front of,egocentric_distant,3,target
+Chicago is behind Ali. Ali turns around. Chicago is BLANK Ali.,in front of,behind,egocentric_distant,4,target
+Chicago is right of Ali. Ali turns around. Chicago is BLANK Ali.,left of,right of,egocentric_distant,1,target
+Chicago is left of Ali. Ali turns around. Chicago is BLANK Ali.,right of,left of,egocentric_distant,2,target
+Ali is facing towards Milwaukee. Ali turns around. Ali is facing BLANK Milwaukee.,away from,towards,egocentric_distant,3,target
+Ali is facing away from Milwaukee. Ali turns around. Ali is facing BLANK Milwaukee.,towards,away from,egocentric_distant,4,target
+Milwaukee is to Ali's right. Ali turns left. Ali is facing BLANK Milwaukee.,away from,towards,egocentric_distant,1,target
+Chicago is to Ali's left. Ali turns left. Ali is facing BLANK Chicago.,towards,away from,egocentric_distant,2,target
+Chicago is to Ali's left. Ali turns right. Ali is facing BLANK Chicago.,away from,towards,egocentric_distant,3,target
+Chicago is behind Ali. Ali turns right. Chicago is BLANK Ali.,right of,left of,egocentric_distant,4,target
+Chicago is behind Ali. Ali turns left. Chicago is BLANK Ali.,left of,right of,egocentric_distant,1,target
+Chicago is in front of Ali. Ali turns left. Chicago is BLANK Ali.,right of,left of,egocentric_distant,2,target
+Chicago is in front of Ali. Ali turns right. Chicago is BLANK Ali.,left of,right of,egocentric_distant,3,target
+Ali is facing Chicago. Ali turns right. Chicago is BLANK Ali.,left of,right of,egocentric_distant,4,target
+Ali is facing Chicago. Ali turns left. Chicago is BLANK Ali.,right of,left of,egocentric_distant,1,target
+Ali is facing away from Chicago. Ali turns left. Chicago is BLANK Ali.,left of,right of,egocentric_distant,2,target
+Ali is facing away from Chicago. Ali turns right. Chicago is BLANK Ali.,right of,left of,egocentric_distant,3,target
+Ali is facing away from Chicago. Ali turns around. Chicago is BLANK Ali.,in front of,behind,egocentric_distant,4,target
+Ali is facing away from Milwaukee. Ali turns 180 degrees. Ali is facing BLANK Milwaukee.,towards,away from,egocentric_distant,1,target
+Ali is facing away from Chicago. Ali turns 180 degrees. Chicago is BLANK Ali.,in front of,behind,egocentric_distant,2,target
+The painting is North of Ali. Ali turns right. The painting is BLANK Ali.,North of,East of,geocentric_near,3,target
+The painting is South of Ali. Ali turns right. The painting is BLANK Ali.,South of,West of,geocentric_near,4,target
+The painting is East of Ali. Ali turns right. The painting is BLANK Ali.,East of,South of,geocentric_near,1,target
+The painting is West of Ali. Ali turns right. The painting is BLANK Ali.,West of,North of,geocentric_near,2,target
+Milwaukee is North of Ali. Ali turns right. Milwaukee is BLANK Ali.,North of,East of,geocentric_distant,3,target
+Milwaukee is South of Ali. Ali turns right. Milwaukee is BLANK Ali.,South of,West of,geocentric_distant,4,target
+Milwaukee is East of Ali. Ali turns right. Milwaukee is BLANK Ali.,East of,South of,geocentric_distant,1,target
+Milwaukee is West of Ali. Ali turns right. Milwaukee is BLANK Ali.,West of,North of,geocentric_distant,2,target
+The painting is North of Ali. Ali turns left. The painting is BLANK Ali.,North of,West of,geocentric_near,3,target
+The painting is South of Ali. Ali turns left. The painting is BLANK Ali.,South of,East of,geocentric_near,4,target
+The painting is East of Ali. Ali turns left. The painting is BLANK Ali.,East of,North of,geocentric_near,1,target
+The painting is West of Ali. Ali turns left. The painting is BLANK Ali.,West of,South of,geocentric_near,2,target
+Milwaukee is North of Ali. Ali turns left. Milwaukee is BLANK Ali.,North of,West of,geocentric_distant,4,target
+Milwaukee is South of Ali. Ali turns left. Milwaukee is BLANK Ali.,South,East of,geocentric_distant,1,target
+Milwaukee is East of Ali. Ali turns left. Milwaukee is BLANK Ali.,East of,North of,geocentric_distant,2,target
+Milwaukee is West of Ali. Ali turns left. Milwaukee is BLANK Ali.,West of,South of,geocentric_distant,3,target
+Ali is directly South of Milwaukee. Ali walks West. Ali is BLANK Milwaukee.,Southwest,Northeast,geocentric_distant,1,target
+Ali is directly North of Milwaukee. Ali walks East. Ali is BLANK Milwaukee.,Northeast,Southwest,geocentric_distant,2,target
+Ali is South of Milwaukee. Ali walks North. Ali is getting BLANK Milwaukee.,closer to,further from,geocentric_distant,3,target
+Ali is South of Milwaukee. Ali walks South. Ali is getting BLANK Milwaukee.,further from,closer to,geocentric_distant,4,target
+Ali is East of Milwaukee. Ali walks West. Ali is getting BLANK Milwaukee.,closer to,further from,geocentric_distant,1,target
+Ali is East of Milwaukee. Ali walks East. Ali is getting BLANK Milwaukee.,further from,closer to,geocentric_distant,2,target
+Milwaukee is West of Ali. Ali walks East. Ali is getting BLANK Milwaukee.,further from,closer to,geocentric_distant,3,target
+Milwaukee is West of Ali. Ali walks West. Ali is getting BLANK Milwaukee.,closer to,further from,geocentric_distant,4,target
+The painting is in front of Ali. Ali turns right. The painting is BLANK Ali.,left of,right of,egocentric_near,1,target
+The painting is left of Ali. Ali turns right. The painting is BLANK Ali.,behind,in front of,egocentric_near,2,target
+The painting is right of Ali. Ali turns right. The painting is BLANK Ali.,in front of,behind,egocentric_near,3,target
+The painting is behind Ali. Ali turns right. The painting is BLANK Ali.,right of,left of,egocentric_near,4,target
+The painting is in front of Ali. Ali turns left. The painting is BLANK Ali.,right of,left of,egocentric_near,2,target
+The painting is left of Ali. Ali turns left. The painting is BLANK Ali.,in front of,behind,egocentric_near,3,target
+The painting is right of Ali. Ali turns left. The painting is BLANK Ali.,behind,in front of,egocentric_near,4,target
+The painting is behind Ali. Ali turns left. The painting is BLANK Ali.,left of,right of,egocentric_near,1,target
+The wine glass is on the table. The wine glass falls over. The wine spills on the BLANK.,table,floor,action_follows,4,target
+The wine glass is on the table. Ali bumps the lamp. The wine BLANK.,doesn't spill,spills,action_nonfollows,2,target
+The box is in the bin. Ali moves the box. The bin BLANK.,doesn't move,moves,action_nonfollows,3,target
+The box is in the bin. Ali moves the bin. The box BLANK.,moves,doesn't move,action_follows,4,target
+The ball is in the box. Ali moves the box. The ball BLANK.,moves,doesn't move,action_follows,1,target
+The ball is five feet from the box. Ali moves the box. The ball BLANK.,doesn't move,moves,action_nonfollows,2,target
+The ball is touching the box. Ali pushes the box. The ball BLANK.,moves,doesn't move,action_follows,3,target
+The ball is five feet from the box. Ali pushes the box. The ball BLANK.,doesn't move,moves,action_nonfollows,4,target
+The ball is on top of the box. Ali pushes the box. The ball BLANK.,moves,doesn't move,action_follows,1,target
+The ball is inside the box. Ali pushes the box. The ball BLANK.,moves,doesn't move,action_follows,2,target
+The ball and the box are on the table. The box falls off the table. The box is BLANK the ball.,lower than,higher than,relative_pos,3,target
+The ball and the box are on the table. Ali picks up the ball. The ball is BLANK the box.,higher than,lower than,relative_pos,4,target
+The ball and the box are on the floor. Ali picks up the ball. The ball is BLANK the box.,higher than,lower than,relative_pos,1,target
+The ball and the box are on top of the ramp. The ball rolls down the ramp. The ball is BLANK the box.,lower than,higher than,relative_pos,2,target
+The tennis ball is touching the bowling ball. Ali rolls the bowling ball. The bowling ball is BLANK the tennis ball.,further from,closer to,relative_pos,3,target
+The tennis ball is far from the bowling ball. Ali rolls the bowling ball. The tennis ball is BLANK the bowling ball.,closer to,further from,relative_pos,4,target
+Ali is holding the tennis ball and the ping pong ball is on the floor. Ali picks up the ping pong ball. The ping pong ball is BLANK the tennis ball.,closer to,further from,relative_pos,1,target
+Ali is holding the tennis ball and the ping pong ball. Ali drops the ping pong ball. The ping pong ball is BLANK the tennis ball.,further from,closer to,relative_pos,2,target
+The tennis ball is at the top of the ramp and the bowling ball is at the bottom of the ramp. Ali rolls the tennis ball down the ramp. The tennis ball is getting BLANK the bowling ball.,closer to,further from,relative_pos,3,target
+The tennis ball is at the top of ther amp and the bowling ball is at the bottom of the ramp. Ali rolls the bowling ball up the ramp. The bowling ball is getting BLANK the tennis ball.,closer to,further from,relative_pos,4,target
+The ball is next to the box. Ali puts the ball inside the box. The ball is BLANK the box.,smaller than,larger than,relative_pos,1,target
+The box is next to the ball. Ali puts the box inside the ball. the ball is BLANK the box.,larger than,smaller than,relative_pos,2,target
+The box is next to the ball. Ali puts the ball inside the box. The ball is BLANK the box.,touching,not touching,relative_pos,3,target
+The ball is inside the box. Ali picks up the ball. The ball is BLANK the box.,not touching,touching,relative_pos,4,target
+The box is next to the desk. Ali stacks the box on the desk. The box is BLANK the desk.,above,below,relative_pos,1,target
+The box is next to the desk. Ali stacks the desk on the box. The box is BLANK the desk.,below,above,relative_pos,2,target
+The glass is on the table. Ali bumps the glass off the table. The glass is BLANK the table.,below,above,relative_pos,3,target
+The glass is on the floor. Ali sets the glass on the table. The glass is BLANK the table.,above,below,relative_pos,4,target
+The box is in front of the ball. Ali pushes the box into the ball. The ball is BLANK the box.,touching,not touching,relative_pos,1,target
+The box is in front of the ball. Ali pushes the box away from the ball. The ball is BLANK the box.,not touching,touching,relative_pos,2,target
+The ball is under the box. The ball moves right. The ball is BLANK the box.,lower than,higher than,action_nonfollows,3,target
+The ball is above the box. The ball moves right. The ball is BLANK the box.,higher than,lower than,action_nonfollows,4,target
+Ali is behind the wagon. Ali pushes on the wagon. The wagon BLANK.,moves,doesn't move,action_follows,1,target
+Ali is in front of the wagon. Ali pulls on the wagon. The wagon BLANK.,moves,doesn't move,action_follows,2,target
+The box is floating in the water. Ali puts a bowling ball in the box. The box BLANK.,sinks,floats,action_follows,3,target
+The box is floating in the water. Ali puts a tennis ball in the box. The box BLANK.,floats,sinks,action_nonfollows,4,target
+The ball is on the table. Ali tilts the table. The ball BLANK.,rolls,stays still,action_follows,1,target
+The seesaw is balanced. Ali tilts the right side of the seesaw. The left side BLANK.,goes up,goes down,action_follows,2,target
+There is a bowling ball on the right side of the seesaw. Ali puts a tennis ball on the left side of the seesaw. The left side BLANK.,stays up,goes down,action_nonfollows,3,target
+There is a bowling ball on the right side of the seesaw. Ali picks the bowling ball up. The right side BLANK.,goes up,stays down,action_follows,4,target
+The book is on the shelf. Ali bumps the shelf. The book BLANK the shelf.,falls off,stays on,action_follows,1,target
+The wagon is on top of the hill. Ali pushes the wagon. The wagon BLANK.,rolls,stays still,action_follows,2,target
+The ping pong ball is on the floor. Ali rolls a tennis ball into the ping pong ball. The ping pong ball BLANK.,moves,doesn't move,action_follows,3,target
+The bowling ball is on the floor. Ali rolls a tennis ball into the bowling ball. The bowling ball BLANK.,doesn't move,moves,action_nonfollows,4,target
+The tennis ball is next to the bowling ball. Ali throws the tennis ball. The tennis ball is BLANK the bowling ball.,far from,close to,action_follows,1,target
+Ali is in the wagon. Ali pulls on the wagon. The wagon BLANK.,doesn't move,moves,action_nonfollows,2,target
+Ali is in the wagon. Ali pushes on the wagon. The wagon BLANK.,doesn't move,moves,action_nonfollows,3,target
+The room is dark. Ali turns on the light. The room gets BLANK.,lighter,darker,state_follows,4,target
+The room is dark. Ali blows out the candle. The room gets BLANK.,darker,lighter,state_follows,1,target
+The room is bright. Ali turns off the lights. The room is BLANK.,dark,bright,state_follows,2,target
+The room is bright. Ali turns on a light. The room gets BLANK.,brighter,darker,state_follows,3,target
+Ali is standing on carpet. Ali drops the glass. The glass BLANK.,doesn't break,breaks,state_follows,4,target
+Ali is standing on tile. Ali drops the glass. The glass BLANK.,breaks,doesn't break,state_follows,1,target
+The glass is on the table. Ali overfills the glass. The table is BLANK.,wet,dry,state_follows,1,target
+The glass is on the table. Ali fills the glass halfway. The table is BLANK.,dry,wet,state_nonfollows,3,target
+The empty glass is on the table. Ali fills the sink halfway. The glass is BLANK.,dry,wet,state_nonfollows,4,target
+The empty glass is on the table. Ali knocks the glass over. The table is BLANK.,dry,wet,state_nonfollows,1,target
+The full glass is on the table. Ali knocks the glass over. The table is BLANK.,wet,dry,state_nonfollows,2,target
+The window is in front of Ali. Ali throws the baseball forward. The window BLANK.,breaks,doesn't break,state_follows,3,target
+The window is behind Ali. Ali throws the baseball forward. The window BLANK.,doesn't break,breaks,state_nonfollows,4,target
+The window is behind Ali and the wall is in front of Ali. Ali throws the baseball at the wall. The window BLANK.,doesn't break,breaks,state_nonfollows,1,target
+The cup is empty. Ali pours water in the cup. The cup is BLANK.,wet,dry,state_follows,2,target
+The cup is empty. Ali pours sand in the cup. The cup is BLANK.,dry,wet,state_nonfollows,3,target
+The wall was painted 5 minutes ago. Ali touches the wall. Ali's hand is BLANK.,painted,clean,state_follows,4,target
+The wall was painted 1 month ago. Ali touches the wall. Ali's hand is BLANK.,clean,painted,state_nonfollows,1,target
+The stove is on high heat. Ali puts his hand on the stove. Ali's hand is BLANK.,burnt,not burnt,state_follows,2,target
+The stove is off. Ali puts his hand on the stove. Ali's hand is BLANK.,not burnt,burnt,state_nonfollows,3,target
+The paper is in one piece. Ali rips the paper. The paper is in BLANK.,two pieces,one piece,state_follows,1,target
+The paper is in one piece. Ali folds the paper. The paper is in BLANK.,one piece,two pieces,state_nonfollows,2,target
+The paper is in two pieces. Ali tapes the pieces together. The paper is in BLANK.,one piece,two pieces,state_follows,2,target
+The glass and the cup are on the table. Ali pushes the cup off the table. The glass BLANK.,doesn't break,breaks,state_nonfollows,2,target
+The glass is on the table and the cup is on the floor. Ali picks up the glass. The cup BLANK.,moves,doesn't move,action_nonfollows,4,target
+Ali is holding the book. Ali drops the book. The book BLANK.,doesn't break,breaks,state_nonfollows,1,target
+Ali is in front of the statue. Ali turns around. Ali is BLANK.,in front of the statue,behind the statue,action_nonfollows,1,target
+Ali is behind the statue. Ali turns around. Ali is BLANK.,behind the statue,in front of the statue,action_nonfollows,3,target
+The ball is close to Ali. Ali throws the box. The ball is BLANK Ali.,close to,far from,action_nonfollows,4,target
+The box is close to Ali. Ali throws the ball. The box is BLANK Ali.,close to,far from,action_nonfollows,1,target
+The box is above the tunnel. Ali goes under the tunnel. The box is BLANK the tunnel.,above,below,action_nonfollows,2,target
+The box is below the bridge. Ali goes over the bridge. The box is BLANK the bridge.,below,above,action_nonfollows,1,target
+The light is unplugged. Ali flips the lightswitch. The light BLANK.,stays off,turns on,state_nonfollows,4,target
+The ice cube and the banana are in the fridge. Ali takes the banana out of the fridge. The ice cube BLANK.,doesn't melt,melts,state_nonfollows,1,target
+The bowling ball is close to Ali. Ali throws the bowling ball. The bowling ball is BLANK Ali.,close to,far from,action_nonfollows,1,target
+The baseball is close to Ali. Ali throws the baseball. The baseball is BLANK Ali.,far from,close to,action_follows,3,target
+The ball is at the bottom of the ramp. Ali pushes the ball. The ball is at the BLANK of the ramp.,bottom,top of,action_nonfollows,4,target
+The ball is under the box. Ali pushes the ball forward. The ball is BLANK the box.,under,above,action_nonfollows,2,target
+The ball is resting on top of the box. Ali pushes the box forward. The ball is BLANK the box.,on top of,below,action_nonfollows,2,target
+The ball is inside the box. Ali pushes the box forward. The ball is BLANK the box.,inside,outside,action_nonfollows,3,target
+The glass is on the table. Ali bumps the glass off the table. The glass BLANK.,breaks,doesn't break,state_follows,4,target
+The ice cube is on the floor. Ali moves the ice cube to the counter. The ice cube gets BLANK.,warmer,colder,state_nonfollows,1,target
+The brick is on the table. Ali bumps the brick off the table. The brick BLANK.,doesn't break,breaks,state_nonfollows,2,target
+The wine glass is on the floor. Ali touches the glass. The glass BLANK.,doesn't break,breaks,state_nonfollows,3,target
+The icecube is in the freezer. Ali puts the icecube in the frying pan. The icecube BLANK.,melts,doesn't melt,state_follows,4,target
+The icecube is in the freezer. Ali puts the icecube in the snow. The icecube BLANK.,doesn't melt,melts,state_nonfollows,1,target
+The water is in the bucket. Ali puts the bucket in the freezer. The water BLANK.,freezes,doesn't freeze,state_follows,2,target
+The apple is in the bucket. Ali puts the apple in the refrigerator. The apple gets BLANK.,colder,warmer,state_follows,3,target
+The ice cream is on the table. Ali puts the ice cream in the freezer. The ice cream gets BLANK.,colder,warmer,state_follows,4,target
+Ali is to Mark's right. Ali turns around. Ali is to Mark's BLANK.,right,left,two_refs_egocentric,1,target
+Ali is to Mark's right. Mark turns around. Ali is to Mark's BLANK.,left,right,two_refs_egocentric,4,target
+The painting is to Ali's right. The painting is moved right. The painting is to Ali's BLANK.,right,left,egocentric_near,3,target
+The painting is to Ali's left. The painting is moved left. The painting is to Ali's BLANK.,right,left,egocentric_near,4,target
+Ali is facing away from Mark. Ali turns around. Ali is facing BLANK Mark.,towards,away from,two_refs_egocentric,1,target
+Ali is facing towards Mark. Ali turns around. Ali is facing BLANK Mark.,away,towards,two_refs_egocentric,2,target
+Ali and Mark are facing eachother. Mark turns around. Ali is facing BLANK Mark.,towards,away from,two_refs_egocentric,3,target
+Ali and Mark are facing away from eachother. Mark turns around. Mark is facing BLANK Ali.,towards,away from,two_refs_egocentric,4,target
+Mark and Ali are facing away from eachother. Mark turns around. Ali is facing BLANK Mark.,away from,towards,two_refs_egocentric,2,target
+Ali is to the right of Mark. Mark looks to his left and Ali looks to his right. Ali is facing BLANK Mark.,away from,towards,two_refs_egocentric,1,target
+Mark is to the left of Ali. Mark looks to his left and Ali looks to his left. Ali is facing BLANK Mark.,towards,away from,two_refs_egocentric,4,target
+Mark is to the left of Ali. Mark looks to his left and Ali looks to his right. Ali is facing BLANK Mark.,away from,towards,two_refs_egocentric,3,target
+Ali is to the right of Mark. Mark looks to his right. Mark BLANK Ali.,see,can't see,two_refs_egocentric,1,target
+Ali is to the right of Mark. Mark looks to his left. Mark BLANK Ali.,can't see,sees,two_refs_egocentric,2,target
+Mark is in front of Ali. Ali turns around. Ali is facing BLANK Mark.,away from,towards,two_refs_egocentric,3,target
+Mark is behind Ali. Ali turns around. Ali is facing BLANK Mark.,towards,away from,two_refs_egocentric,4,target
+Mark and Ali are both facing right. Ali turns to his left. Ali is facing BLANK Mark.,away from,towards,two_refs_egocentric,1,target
+Mark and Ali are both facing left. Ali turns to his right. Ali is facing BLANK Mark.,away from,towards,two_refs_egocentric,2,target
+Mark is facing right and Ali is facing left. Mark turns to his left. Mark is facing BLANK Ali.,towards,away from,two_refs_egocentric,3,target
+Mark is in front of Ali. Mark walks forwards. Mark is getting BLANK Ali.,further from,closer to,two_refs_egocentric,4,target
+Mark is behind Ali. Mark walks backwards. Mark is getting BLANK Ali.,further from,closer to,two_refs_egocentric,1,target
+Mark is behind Ali. Mark walks fowards. Mark is getting BLANK Ali.,closer to,further from,two_refs_egocentric,2,target
+Mark is facing away from Ali. Ali turns around. Mark is facing BLANK Ali.,away,towards,two_refs_egocentric,3,target
+Mark is facing East and Ali is facing West. Mark turns around. Mark is facing BLANK.,West,East,two_refs_geocentric,4,target
+Mark is directly North of Milwaukee and Ali is directly South of Milwaukee. Mark is BLANK of Ali.,North,South,two_refs_geocentric,1,target
+Mark is directly East of Paris and Ali is directly West of Paris. Mark is BLANK of Ali.,East,West,two_refs_geocentric,2,target
+Mark is directly East of Paris and Ali is directly West of Paris. Ali is BLANK of Mark.,West,East,two_refs_geocentric,3,target
+Mark is directly North of Paris and Ali is directly East of Paris. Ali is BLANK of Mark.,Southeast,Northwest,two_refs_geocentric,4,target
+Mark is directly South of Paris and Ali is directly West of Paris. Mark is BLANK of Ali.,Southeast,Northwest,two_refs_geocentric,1,target
+Mark is East of Ali facing East. Ali is West of Mark facing West. Mark is facing BLANK Ali.,away from,towards,two_refs_geocentric,2,target
+Mark is West of Ali facing East. Ali is East of Mark facing West. Mark is facing BLANK Ali.,towards,away from,two_refs_geocentric,3,target
+Mark is East of Ali. Mark turns right. Mark is BLANK of Ali.,East,West,two_refs_geocentric,4,target
+Milwaukee is North of Mark. Mark goes East. Milwaukee is BLANK of Mark.,Northwest,Southeast,two_refs_geocentric,1,target
+Milwaukee is South of Mark. Mark goes West. Milwaukee is BLANK of Mark.,Southeast,Northwest,two_refs_geocentric,2,target
+Milwaukee is South of Mark. Mark goes West. Mark is BLANK of Milwaukee.,Northest,Southeast,two_refs_geocentric,3,target
+Mark is facing North and Ali is facing East. Mark turns 90 degrees to his right. Mark and Ali are facing BLANK.,the same direction,different directions,two_refs_geocentric,4,target
+Mark is facing South and Ali is facing East. Mark turns 90 degrees to his right. Mark and Ali are facing BLANK.,the same direction,different directions,two_refs_geocentric,1,target
+Mark is facing East and Ali is facing West. Mark turns 180 degrees. Mark and Ali are facing BLANK.,the same direction,different directions,two_refs_geocentric,2,target
+Mark and Ali are both directly East of Budapest. Mark walks North. Ali is BLANK of Mark.,South,North,two_refs_geocentric,3,target
+Mark and Ali are both directly West of Budapest. Mark walks South. Ali is BLANK of Mark.,North,South,two_refs_geocentric,4,target
+Mark is East of Budapest and Ali is West of Budapest. Mark walks directly towards Ali. Mark is heading BLANK.,West,East,two_refs_geocentric,1,target
+Mark is East of Budapest and Ali is West of Budapest. Ali walks directly towards Mark. Ali is heading BLANK.,East,West,two_refs_geocentric,2,target
+Mark is North of Budapest and Ali is South of Budapest. Ali walks directly away from Mark. Ali is walking BLANK.,South,North,two_refs_geocentric,3,target
+Mark is facing East. Mark turns 90 degrees to his right. Mark is facing BLANK.,South,North,geocentric_near,4,target
+Mark is facing South. Mark turns 90 degrees to his right. Mark is facing BLANK.,West,East,geocentric_near,1,target
+Mark is facing West. Mark turns 90 degrees to his right. Mark is facing BLANK.,North,South,geocentric_near,2,target
+Mark is facing North. Mark turns 90 degrees to his right. Mark is facing BLANK.,East,West,geocentric_near,3,target
+The statue is North of Ali. Ali walks East. The statue is BLANK of Ali.,North of,West of,geocentric_near,4,target
+The statue is North of Ali. Ali walks West. The statue is BLANK of Ali.,North of,East of,geocentric_near,1,target
+The statue is South of Ali. Ali walks East. The statue is BLANK of Ali.,South of,West of,geocentric_near,2,target
+The statue is East of Ali. Ali walks North. The statue is BLANK of Ali.,East of,South of,geocentric_near,3,target
+The statue is East of Ali. Ali walks South. The statue is BLANK of Ali.,East of,North of,geocentric_near,4,target
+The statue is West of Ali. Ali walks North. The statue is BLANK of Ali.,West of,South of,geocentric_near,1,target
+The statue is West of Ali. Ali walks South. The statue is BLANK of Ali.,West of,North of,geocentric_near,2,target
+The glass is on the table. Ali bumps the table. The glass BLANK.,breaks,doesn't break,state_follows,3,target
+The glass is on the floor. Ali bumps the table. The glass BLANK.,doesn't break,breaks,state_nonfollows,4,target
+The soup is on the stove. Ali turns off the stove. The soup gets BLANK.,colder,warmer,state_follows,1,target
+The soup is on the stove. Ali turns on the stove. The soup gets BLANK.,warmer,colder,state_follows,2,target
+The soup is on the table. Ali turns on the stove. The soup gets BLANK.,colder,warmer,state_nonfollows,3,target
+The book is on the table. Ali moves the table. The book BLANK.,moves,doesn't move,action_follows,4,target
+The book is under the table. Ali moves the table. The book BLANK.,doesn't move,moves,action_nonfollows,1,target
+The book is on the table. Ali moves the book. The table BLANK.,doesn't move,moves,action_follows,2,target
+The book is under the table. Ali moves the book. The table BLANK.,doesn't move,moves,action_nonfollows,3,target
