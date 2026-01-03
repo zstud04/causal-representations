@@ -68,7 +68,7 @@ def load_model(model_str):
         key = {
             "openai": os.getenv("OPENAI_KEY"),
             "gemini": os.getenv("GEMINI_KEY"),
-            "deepseek": os.getenv("DEEPSEEK_KEY"),   # ← ADD THIS
+            "deepseek": os.getenv("DEEPSEEK_KEY"),  
         }.get(model_cfg["type"])
 
         if key is None:
